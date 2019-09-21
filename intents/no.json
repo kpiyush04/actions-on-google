@@ -1,0 +1,43 @@
+{
+  "id": "14124acf-4f4c-403b-ad9b-85e0badae786",
+  "name": "no",
+  "auto": true,
+  "contexts": [
+    "DefaultWelcomeIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "DefaultWelcomeIntent-followup",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "If you wanna know more about sugar just say talk to sugar facts\nBye"
+        },
+        {
+          "type": 0,
+          "lang": "hi",
+          "condition": "",
+          "speech": "अगली बार चीनी के बारे में जानने के लिए\nअपने गूगल असिस्टेंट से कहे \n sugar facts से कनेक्ट करो\nअलविदा"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": []
+}

@@ -1,0 +1,36 @@
+{
+  "id": "38c84945-428d-4c2c-9e1b-45675950b760",
+  "name": "Default Fallback Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Do you wanna know random facts about sugar?"
+        },
+        {
+          "type": 0,
+          "lang": "hi",
+          "condition": "",
+          "speech": "क्या आप चीनी के बारे में यादृच्छिक तथ्यों को जानना चाहते हैं?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": []
+}

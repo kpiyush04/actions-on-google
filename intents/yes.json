@@ -1,0 +1,56 @@
+{
+  "id": "20405eb6-aaea-4c74-ba6a-62636496a381",
+  "name": "yes",
+  "auto": true,
+  "contexts": [
+    "DefaultWelcomeIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-yes",
+      "affectedContexts": [
+        {
+          "name": "DefaultWelcomeIntent-followup",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "Sugar, which refers to mono- and di-saccharides present in food, is a type of simple carbohydrates.\nWanna know more?",
+            "Some types of sugar are found naturally in foods (e.g. fructose in fruits, glucose in honey, lactose in milk), whereas others are added to foods.nWanna know more?",
+            "Foods rich in added sugar include confectioneries, cakes, pastries, biscuits, fruit drinks, cordials, carbonated soft drinks, and so on.\nWanna know more?",
+            "More than a dozen of terms are referring to sugar, such as brown sugar, high fructose corn syrup, malt syrup, maltose, molasses, etc..!\nWanna know more?",
+            "Free sugars, a term coined by the World Health Organization, mean all mono- and di-saccharides added to foods by the manufacturer, cook or consumer, plus sugars naturally present in honey, syrup and fruit juices in diets.\nWanna know more?"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "hi",
+          "condition": "",
+          "speech": [
+            "चीनी, जो भोजन में मौजूद मोनो- और डी-सैकराइड्स को संदर्भित करता है, एक प्रकार का सरल कार्बोहाइड्रेट है।\nक्या आप और जानना चाहते हैं?",
+            "कुछ प्रकार की चीनी खाद्य पदार्थों में स्वाभाविक रूप से पाई जाती है (जैसे फलों में फ्रुक्टोज, शहद में ग्लूकोज, दूध में लैक्टोज), जबकि अन्य खाद्य पदार्थों में जोड़े जाते हैं।\nक्या आप और जानना चाहते हैं?",
+            "अतिरिक्त चीनी से समृद्ध खाद्य पदार्थों में कन्फेक्शनरी, केक, पेस्ट्री, बिस्कुट, फलों के पेय, कॉर्डियल्स, कार्बोनेटेड शीतल पेय, और इतने पर शामिल हैं।\nक्या आप और जानना चाहते हैं?",
+            "एक दर्जन से अधिक शब्द चीनी का उल्लेख कर रहे हैं, जैसे कि ब्राउन शुगर, उच्च फ्रुक्टोज कॉर्न सिरप, माल्ट सिरप, माल्टोज, गुड़ आदि।\nक्या आप और जानना चाहते हैं?",
+            "मुक्त शक्कर, विश्व स्वास्थ्य संगठन द्वारा गढ़ा गया एक शब्द है, जिसका अर्थ है निर्माता, रसोइया या उपभोक्ता द्वारा खाद्य पदार्थों में जोड़े गए सभी मोनो- और डी-सैकराइड्स, साथ ही आहार में प्राकृतिक रूप से शहद, सिरप और फलों के रस में मौजूद शर्करा।\nक्या आप और जानना चाहते हैं?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": []
+}

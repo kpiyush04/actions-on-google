@@ -1,0 +1,38 @@
+[
+  {
+    "id": "a8084c85-cdb9-44cd-92e4-d0930825b423",
+    "data": [
+      {
+        "text": "बताओ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f4d6a191-a6c5-4f3d-ab59-f174b288a644",
+    "data": [
+      {
+        "text": "हाँ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2afbae51-ff03-4d4d-91ff-784842cab2a0",
+    "data": [
+      {
+        "text": "हाँ क्यों नहीं",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,0 +1,48 @@
+{
+  "id": "6475a698-cf08-43af-b3dd-9740bdfdaa9d",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [
+        {
+          "name": "DefaultWelcomeIntent-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Hi I can tell you random facts about sugar\nWanna know  ?"
+        },
+        {
+          "type": 0,
+          "lang": "hi",
+          "condition": "",
+          "speech": "हाय मैं आपको चीनी के बारे में यादृच्छिक तथ्य बता सकता हूं\nजानना चाहता हूँ  ?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "conditionalResponses": []
+}
